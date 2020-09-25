@@ -1,0 +1,7 @@
+D:\gbCourse\CS_Level3\Lesson1\Lesson1\bin\Debug\Lesson1.exe.config
+D:\gbCourse\CS_Level3\Lesson1\Lesson1\bin\Debug\Lesson1.exe
+D:\gbCourse\CS_Level3\Lesson1\Lesson1\bin\Debug\Lesson1.pdb
+D:\gbCourse\CS_Level3\Lesson1\Lesson1\obj\Debug\Lesson1.csprojAssemblyReference.cache
+D:\gbCourse\CS_Level3\Lesson1\Lesson1\obj\Debug\Lesson1.csproj.CoreCompileInputs.cache
+D:\gbCourse\CS_Level3\Lesson1\Lesson1\obj\Debug\Lesson1.exe
+D:\gbCourse\CS_Level3\Lesson1\Lesson1\obj\Debug\Lesson1.pdb
