@@ -34,6 +34,9 @@ namespace Lesson1
                 Console.WriteLine("The file could not be read");
             }
             #endregion
+
+            new MailSender("ds0090@yandex.ru", "ds0090@yandex.ru", login, password);
+            MailSender.SendMail("Subject", "TEST MESSAGE");
         }
     }
 }
