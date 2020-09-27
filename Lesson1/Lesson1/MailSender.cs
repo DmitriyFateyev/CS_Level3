@@ -5,11 +5,11 @@ namespace Lesson1
 {
     class MailSender
     {
-        public static string Login { get; private set; }
-        public static string Password { get; private set; }
-        public static string Sender { get; private set; }
-        public static string Recipient { get; private set; }
-        public static MailMessage MM { get; set; }
+        public string Login { get; private set; }
+        public string Password { get; private set; }
+        public string Sender { get; private set; }
+        public string Recipient { get; private set; }
+        public MailMessage MM { get; set; }
 
         public MailSender(string sender, string recipient, string login, string password)
         {
