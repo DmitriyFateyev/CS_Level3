@@ -9,7 +9,6 @@
     <Grid>
         <Button Name="btnSendEmail" Content="Отправить" HorizontalAlignment="Left" Margin="357,208,0,0" VerticalAlignment="Top"
                 Width="86" Height="30" Click="btnSendEmail_Click">
-
         </Button>
         <PasswordBox Name="passwordBox" HorizontalAlignment="Left" Margin="454,92,0,0" VerticalAlignment="Top" Width="99"/>
 

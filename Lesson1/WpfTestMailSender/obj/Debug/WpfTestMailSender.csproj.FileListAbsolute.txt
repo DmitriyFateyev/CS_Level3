@@ -13,3 +13,5 @@ D:\gbCourse\CS_Level3\Lesson1\WpfTestMailSender\obj\Debug\WpfTestMailSender.exe
 D:\gbCourse\CS_Level3\Lesson1\WpfTestMailSender\obj\Debug\WpfTestMailSender.pdb
 D:\gbCourse\CS_Level3\Lesson1\WpfTestMailSender\obj\Debug\WpfMailSender.g.cs
 D:\gbCourse\CS_Level3\Lesson1\WpfTestMailSender\obj\Debug\WpfMailSender.baml
+D:\gbCourse\CS_Level3\Lesson1\WpfTestMailSender\obj\Debug\SendEndWindow.g.cs
+D:\gbCourse\CS_Level3\Lesson1\WpfTestMailSender\obj\Debug\SendEndWindow.baml

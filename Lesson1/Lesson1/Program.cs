@@ -35,7 +35,7 @@ namespace Lesson1
             }
             #endregion
 
-            new MailSender("ds0090@yandex.ru", "ds0090@yandex.ru", login, password);
+            new MailSender("diman_f@mail.ru", "ds0090@yandex.ru", login, password);
             MailSender.SendMail("Subject", "TEST MESSAGE");
         }
     }

@@ -57,7 +57,9 @@ namespace WpfTestMailSender
                         }
                     }
                 }
-                MessageBox.Show("Работа завершена.");
+                SendEndWindow sew = new SendEndWindow();
+                sew.ShowDialog();
+
             }
         }
     }
