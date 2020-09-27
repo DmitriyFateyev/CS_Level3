@@ -26,7 +26,7 @@ namespace Lesson1
             MM.Body = message;
             MM.IsBodyHtml = false;
 
-            SmtpClient sc = new SmtpClient("smtp.yandex.ru", 587);
+            using SmtpClient sc = new SmtpClient("smtp.yandex.ru", 587);
             sc.EnableSsl = true;
             sc.DeliveryMethod = SmtpDeliveryMethod.Network;
             sc.UseDefaultCredentials = false;
