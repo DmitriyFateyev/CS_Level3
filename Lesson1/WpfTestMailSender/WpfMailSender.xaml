@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfTestMailSender.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTestMailSender"
+        mc:Ignorable="d"
+        Title="Lesson-1" Height="450" Width="800">
+    <Grid>
+        <Button Name="btnSendEmail" Content="Отправить" HorizontalAlignment="Left" Margin="357,208,0,0" VerticalAlignment="Top"
+                Width="86" Height="30" Click="btnSendEmail_Click">
+        </Button>
+        <PasswordBox Name="passwordBox" HorizontalAlignment="Left" Margin="454,92,0,0" VerticalAlignment="Top" Width="99"/>
+
+    </Grid>
+</Window>

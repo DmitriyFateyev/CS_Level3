@@ -1,31 +1,41 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Net.Mail;
 
 namespace Lesson1
 {
     class MailSender
     {
-        static string login;
-        static string password;
-        
-            
+        public string Login { get; private set; }
+        public string Password { get; private set; }
+        public string Sender { get; private set; }
+        public string Recipient { get; private set; }
+        public MailMessage MM { get; set; }
 
-            MailMessage mm = new MailMessage("ds0090@yandex.ru", "dmitriy.fateyev86@gmail.com");
-            mm.Subject = "Заголовок письма";
-            mm.Body = "Содержимое письма";
-            mm.IsBodyHtml = false;
+        public MailSender(string sender, string recipient, string login, string password)
+        {
+            Login = login;
+            Password = password;
+            Sender = sender;
+            Recipient = recipient;
+        }
 
-            SmtpClient sc = new SmtpClient("smtp.yandex.ru", 567);
+        public static void SendMail(string subject, string message)
+        {
+            MM = new MailMessage(Sender, Recipient);
+            MM.Subject = subject;
+            MM.Body = message;
+            MM.IsBodyHtml = false;
+
+            using SmtpClient sc = new SmtpClient("smtp.yandex.ru", 587);
             sc.EnableSsl = true;
             sc.DeliveryMethod = SmtpDeliveryMethod.Network;
             sc.UseDefaultCredentials = false;
-            sc.Credentials = new NetworkCredential(login, password);
+            sc.Credentials = new System.Net.NetworkCredential(Login, Password);
+
             try
             {
-                sc.Send(mm);
+                Console.WriteLine($"Sending mail..." + Environment.NewLine);
+                sc.Send(MM);
             }
             catch (Exception ex)
             {
@@ -33,5 +43,5 @@ namespace Lesson1
                 Console.ReadLine();
             }
         }
-    
-
+    }
+}

@@ -1,0 +1,17 @@
+D:\gbCourse\CS_Level3\Lesson1\WpfTestMailSender\bin\Debug\WpfTestMailSender.exe.config
+D:\gbCourse\CS_Level3\Lesson1\WpfTestMailSender\bin\Debug\WpfTestMailSender.exe
+D:\gbCourse\CS_Level3\Lesson1\WpfTestMailSender\bin\Debug\WpfTestMailSender.pdb
+D:\gbCourse\CS_Level3\Lesson1\WpfTestMailSender\obj\Debug\WpfTestMailSender.csprojAssemblyReference.cache
+D:\gbCourse\CS_Level3\Lesson1\WpfTestMailSender\obj\Debug\App.g.cs
+D:\gbCourse\CS_Level3\Lesson1\WpfTestMailSender\obj\Debug\WpfTestMailSender_MarkupCompile.cache
+D:\gbCourse\CS_Level3\Lesson1\WpfTestMailSender\obj\Debug\WpfTestMailSender_MarkupCompile.lref
+D:\gbCourse\CS_Level3\Lesson1\WpfTestMailSender\obj\Debug\WpfTestMailSender.g.resources
+D:\gbCourse\CS_Level3\Lesson1\WpfTestMailSender\obj\Debug\WpfTestMailSender.Properties.Resources.resources
+D:\gbCourse\CS_Level3\Lesson1\WpfTestMailSender\obj\Debug\WpfTestMailSender.csproj.GenerateResource.cache
+D:\gbCourse\CS_Level3\Lesson1\WpfTestMailSender\obj\Debug\WpfTestMailSender.csproj.CoreCompileInputs.cache
+D:\gbCourse\CS_Level3\Lesson1\WpfTestMailSender\obj\Debug\WpfTestMailSender.exe
+D:\gbCourse\CS_Level3\Lesson1\WpfTestMailSender\obj\Debug\WpfTestMailSender.pdb
+D:\gbCourse\CS_Level3\Lesson1\WpfTestMailSender\obj\Debug\WpfMailSender.g.cs
+D:\gbCourse\CS_Level3\Lesson1\WpfTestMailSender\obj\Debug\WpfMailSender.baml
+D:\gbCourse\CS_Level3\Lesson1\WpfTestMailSender\obj\Debug\SendEndWindow.g.cs
+D:\gbCourse\CS_Level3\Lesson1\WpfTestMailSender\obj\Debug\SendEndWindow.baml
